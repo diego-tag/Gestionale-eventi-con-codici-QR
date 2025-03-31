@@ -2,13 +2,13 @@
 
 Benvenuti nel repository del progetto di Ingegneria del Software. Questa repo include il codice sorgente Python, i diagrammi UML e la relazione in latex del progetto.
 
-## Struttura del Repository
+## Struttura del repository
 
 - **root**  
-  In questa cartella si trova il file `.eap` (Enterprise Architect Project) necessario per i diagrammi UML.
+  Si trova il file `.eap` (Enterprise Architect Project) necessario per i diagrammi UML e la struttura consigliata per la relazione (tesina).
 
 - **relazione**  
-  Contiene tutti i file e i pacchetti necessari per la compilazione della relazione in LaTeX.
+  Contiene tutti i file e i pacchetti necessari per la compilazione della relazione in LaTeX. Vi è disponibile anche la relazione in formato `.pdf`.
 
 - **app**  
   Contiene l'intero codice sorgente del software gestionale implementato in Python.
@@ -24,28 +24,28 @@ Benvenuti nel repository del progetto di Ingegneria del Software. Questa repo in
 - **LaTeX**  
   Per la compilazione della relazione, è necessario avere un ambiente LaTeX installato (ad esempio, TeX Live o MikTeX) oppure un IDE (TeXstudio, VS code o altri).
 
-## Istruzioni per l'Esecuzione del programma
+## Istruzioni per eseguire il software
 
 1. Clonare il repository:
    ```bash
-   git clone https://github.com/your-repository-url.git
+   git clone https://github.com/diego-tag/Gestionale-eventi-con-codici-QR.git
    ```
-2. Spostarsi nella cartella del progetto:
+2. Spostarsi nella cartella del software:
    ```bash
-   cd gestionale-python
+   cd app
    ```
-3. Eseguire il software:
+3. Eseguire il software con Python:
    ```bash
-   python app/main.py
+   python main.py
    ```
 
-## Generazione della Documentazione
+## Generazione della documentazione
 
 - **Diagrammi UML**:  
   Aprire il file `.eap` situato nella root con Enterprise Architect per visualizzare e modificare i diagrammi UML.
 
 - **Relazione in LaTeX**:  
-  Navigare nella cartella `relazione` e compilare il documento LaTeX:
+  Navigare nella cartella `relazione` e compilare il documento LaTeX (con pdflatex o simili):
   ```bash
   pdflatex relazione.tex
   ```
