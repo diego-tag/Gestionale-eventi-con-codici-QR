@@ -3,6 +3,6 @@
 \contentsline {section}{\numberline {1.2}Obiettivi del Progetto}{2}{}%
 \contentsline {chapter}{\numberline {2}Glossario dei Termini}{3}{}%
 \contentsline {chapter}{\numberline {3}Gestione dei requisiti}{4}{}%
-\contentsline {chapter}{\numberline {4}Analisi dei resquisiti}{5}{}%
+\contentsline {chapter}{\numberline {4}Analisi dei requisiti}{5}{}%
 \contentsline {chapter}{\numberline {5}Progettazione}{6}{}%
 \contentsline {chapter}{\numberline {6}Implementazione}{7}{}%
