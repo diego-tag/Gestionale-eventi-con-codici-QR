@@ -5,7 +5,7 @@ Benvenuti nel repository del progetto di Ingegneria del Software. Questa repo in
 ## Struttura del repository
 
 - **root**  
-  Si trova il file `.eap` (Enterprise Architect Project) necessario per i diagrammi UML e la struttura consigliata per la relazione (tesina).
+  Si trova `Gestionale eventi QR.eapx`, il file necessario per i diagrammi UML e un PDF dove è illustrata la struttura consigliata per la relazione (tesina).
 
 - **relazione**  
   Contiene tutti i file e i pacchetti necessari per la compilazione della relazione in LaTeX. Vi è disponibile anche la relazione in formato `.pdf`.
@@ -19,7 +19,7 @@ Benvenuti nel repository del progetto di Ingegneria del Software. Questa repo in
   Assicurarsi di avere installato Python di versione 3 o successiva.
 
 - **Enterprise Architect**  
-  Per aprire e modificare il file `.eap` che contiene i diagrammi UML, è richiesto Enterprise Architect o un software compatibile.
+  Per aprire e modificare il file `.eapx` che contiene i diagrammi UML, è richiesto Enterprise Architect o un software compatibile.
 
 - **LaTeX**  
   Per la compilazione della relazione, è necessario avere un ambiente LaTeX installato (ad esempio, TeX Live o MikTeX) oppure un IDE (TeXstudio, VS code o altri).
@@ -42,7 +42,7 @@ Benvenuti nel repository del progetto di Ingegneria del Software. Questa repo in
 ## Generazione della documentazione
 
 - **Diagrammi UML**:  
-  Aprire il file `.eap` situato nella root con Enterprise Architect per visualizzare e modificare i diagrammi UML.
+  Aprire il file `.eapx` situato nella root con Enterprise Architect per visualizzare e modificare i diagrammi UML.
 
 - **Relazione in LaTeX**:  
   Navigare nella cartella `relazione` e compilare il documento LaTeX (con pdflatex o simili):
